@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.principal {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 291px;
+    height: 391px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    color: hsl(241, 100%, 89%);
+    font-family: "Hanken Grotesk";
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.circulo {
+    background: linear-gradient(hsla(256, 72%, 46%, 1) 40%, hsla(241, 72%, 46%, 0));
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2.5rem;
+}
+
+.circulo h2 {
+    font-size: 6rem;
+    font-family: "Hanken Grotesk";
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+}
+
+.circulo p {
+    color: hsla(241, 100%, 89%, 0.538);
+    font-family: "Hanken Grotesk";
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.principal .avaliacao {
+    color: white;
+    font-family: "Hanken Grotesk";
+    margin-top: 30px;
+    font-size: 2.5rem;
+    
+}
+
+.principal .subtitle {
+    color: hsl(241, 100%, 89%);
+    font-family: "Hanken Grotesk";
+    width: 230px;
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    font-size: 1.3rem;
+}
+
+.resultado {
+    background-color: aqua;
+    width: 291px;
+    height: 391px;
+    padding: 30px;
+}
+
+.resultado .titulo1 {
+    color: #000000;
+    font-family: "Hanken Grotesk";
+}
+
+.resultado .classes {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.resultado .classes .resumo1 div {
+    display: flex;
+    align-items: center;
+}
+
+.resultado .classes .resumo1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resultado .classes .resumo2 div {
+    display: flex;
+    align-items: center;
+}
+
+.resultado .classes .resumo2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resultado .classes .resumo3 div {
+    display: flex;
+    align-items: center;
+}
+
+.resultado .classes .resumo3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resultado .classes .resumo4 div {
+    display: flex;
+    align-items: center;
+}
+
+.resultado .classes .resumo4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
